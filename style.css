@@ -1,0 +1,139 @@
+.mainHeader{
+  text-align: center;
+  /*border: 2px solid black;*/
+  background-color: skyblue;
+  color: white;
+  padding: 1px;
+  width: 100%;
+  position: fixed;
+}
+.nav{
+  /*border: 2px solid black;*/
+  padding: 4px;
+  width: 100%;
+  position: fixed;
+  top: 100px;
+}
+
+
+/* Style the search field */
+form.searchNev input[type=text] {
+  padding: 2px;
+  font-size: 15px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.searchNev button {
+  float: left;
+  width: 18%;
+  padding: 3px;
+  background: lightgreen;
+  color: grey;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.searchNev button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.searchNev::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.main{
+  border: 2px solid black;
+  background-color: lightcyan;
+  position: fixed;
+  top: 150px;
+  left: 22%;
+  width: 55vw;
+  height: 70vh;
+  overflow: auto;
+  padding: 2px;
+}
+.main-header{
+  text-align: center;
+  border: 2px solid black;
+  background-color: lightskyblue;
+  color: white;  
+}
+.container{
+  background-color: grey;;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 1px;
+
+}
+.b1{
+  float: left;
+}
+.b2{
+  float: left;
+}
+.b3{
+  float: left;
+}
+.b4{
+  float: left;
+}
+.b5{
+  float: left;
+}
+.b6{
+  float: left;
+}
+.b7{
+  float: left;
+}
+.b8{
+  float: left;
+}
+.b9{
+  float: left;
+}
+.left-aside-container{
+  border: 2px solid black;
+  background-color: lightcyan;
+  position: fixed;
+  top: 150px;
+  left: 1%;
+  width: 20vw;
+  height: 70vh;
+  overflow: auto;
+  padding: 2px;
+}
+.right-aside-container{
+  border: 2px solid black;
+  background-color: lightcyan;
+  position: fixed;
+  top: 150px;
+  left: 78%;
+  width: 20vw;
+  height: 70vh;
+  overflow: auto;
+  padding: 2px;
+}
+.aside-header{
+  text-align: center;
+  border: 2px solid black;
+  background-color: lightskyblue;
+  color: white;
+}
+.footer{
+  width: 100vw;
+  height: 5vh;
+  background-color: lightskyblue;
+  color :brown;
+  position: fixed;
+  bottom: 5px;
